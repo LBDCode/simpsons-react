@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "name": "Homer",
+    "image": "././images/homer.png"
+  },
+  {
+    "id": 2,
+    "name": "Bart",
+    "image": "././images/bart.png"
+  },
+  {
+    "id": 3,
+    "name": "Mr Burns",
+    "image": "././images/burns.png"
+  },
+  {
+    "id": 4,
+    "name": "Flanders",
+    "image": "././images/flanders.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Krusty the Clown",
+    "image": "././images/krusty.png"
+  },
+  {
+    "id": 6,
+    "name": "Lisa",
+    "image": "././images/lisa.png"
+  },
+  {
+    "id": 7,
+    "name": "Ralph",
+    "image": "././images/ralph.jpg"
+  },
+  {
+    "id": 8,
+    "name": "Marge",
+    "image": "././images/marge.png"
+  },
+  {
+    "id": 9,
+    "name": "Waylon",
+    "image": "././images/waylon.jpg"
+  },
+  {
+    "id": 10,
+    "name": "Moe",
+    "image": "././images/moe.jpg"
+  },
+  {
+    "id": 11,
+    "name": "Willie",
+    "image": "././images/willie.jpg"
+  },
+  {
+    "id": 12,
+    "name": "Milhouse",
+    "image": "././images/milhouse.png"
+  }
+]
