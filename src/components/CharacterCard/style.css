@@ -1,6 +1,12 @@
+@font-face {
+  font-family: "simpsons";
+  src: url('./font/Simpsonfont.otf');
+}
+
 .card {
   background: #fff;
-  border-radius: 2px;
+  border: 2px solid #fff;
+  border-radius: 10px;
   height: 200px;
   margin: 1rem;
   position: relative;
@@ -9,9 +15,50 @@
   text-align: left;
 }
 
+.title {
+  margin-top: 15px;
+  color: #f2d83d;
+  font-size: 60px;
+  font-family: "simpsons";
+  text-shadow:
+		-1px -1px 0 #000,
+		1px -1px 0 #000,
+		-1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+
+#subtitle {
+  margin-top: 0;
+  color: #f2d83d;
+  font-size: 40px;
+  font-family: "simpsons";
+  text-shadow:
+		-1px -1px 0 #000,
+		1px -1px 0 #000,
+		-1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+
+#score {
+  margin-top: 10px;
+  color:#357abb;
+  font-size: 20px;
+  text-shadow:
+  -1px -1px 0 #fff,
+  1px -1px 0 #fff,
+  -1px 1px 0 #fff,
+  1px 1px 0 #fff;
+}
+
 .card > .img-container {
   overflow: hidden;
   text-align: center;
+  border: none;
+}
+
+
+.card:hover {
+  border: 3px solid #f2d83d; 
 }
 
 

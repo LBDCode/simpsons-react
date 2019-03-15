@@ -1,10 +1,10 @@
 .wrapper {
-  padding-top: 50px;
-  background: #ECEFF1;
+  background-image: url("./clouds.jpg");
+  padding-top: 30px;
   height: 100%;
   display: flex;
   flex-flow: row wrap;
-  padding: 20px;
+  padding: 20px 40px;
   justify-content: space-around;
   align-content: flex-start;
   overflow: auto;

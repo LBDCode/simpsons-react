@@ -47,13 +47,14 @@ class App extends React.Component {
   };
 
 
-
-
-
   render() {
     return (
       <Wrapper>
-        <h1 className="title">The Simpsons!</h1>
+        <h1 className="title">The Simpsons!
+        <span> <p id="subtitle">Clicky Game</p> </span>
+        <span> <p id="score">Score: {this.score} | High Score: {this.highScore}</p></span>
+        </h1>
+        
         {
           this.state.characters.map(character => (
             <CharacterCard 
